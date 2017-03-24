@@ -42,7 +42,7 @@ namespace yadisk
         auto remove(url::path resource, bool permanently, std::list<string> fields = std::list<string>()) -> json;
 
         auto publish(url::path resource) -> json;
-        /// unpuplish file
+        /// unpublish file
         /// \param[in]path resource
         /// \return https://tech.yandex.ru/disk/api/reference/response-objects-docpage/#link
         /// \include examples/unpublish.cpp
